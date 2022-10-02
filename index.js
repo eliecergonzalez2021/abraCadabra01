@@ -41,4 +41,4 @@ app.get('*', (req, res) => {
     res.status(404).send('hoooh...!! sorry, esta página no existe 😅')
 })
 
-app.listen(3000, () => console.log("Server UP 😎🤙"))
+app.listen(3000, () => console.log("Server UP 😎🤙 http://localhost:3000/"))
